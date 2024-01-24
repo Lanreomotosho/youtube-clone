@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Paper, IconButton } from '@mui/material';
 import { Search} from '@mui/icons-material';
 
-const searchbar = () => {
+const Searchbar = () => {
   return (
     <Paper
         Component="form"
@@ -30,4 +30,4 @@ onChange={() => {} }
   )
 }
 
-export default searchbar
+export default Searchbar

@@ -3,13 +3,13 @@ import { Box } from '@mui/material';
 
 
 
-import { navbar, feed, videodetail, channeldetail, searchfeed } from './components';
+import { Navbar, Feed, videodetail, channeldetail, Searchbar, Searchfeed } from './components';
 
 
 const App = () => (
     <BrowserRouter>
     <Box sx={{ backgroundColor: '#000'}}>
-<navbar />
+<Navbar />
 <Routes>
     <Route path="/" exact element={<feed />} />
     <Route path="/video/id" element={<videodetail />} />

@@ -2,9 +2,9 @@ import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import { logo } from '../utils/constants';
-import searchbar from "./searchbar";
+import Searchbar from "./Searchbar";
 
-const navbar = () => (
+const Navbar = () => (
  <Stack 
  direction="row" 
  alighItems="center" 
@@ -20,4 +20,4 @@ const navbar = () => (
   )
 
 
-export default navbar
+export default Navbar
