@@ -18,4 +18,4 @@ Copyright 2024 Lanre Omotosho
   )
 }
 
-export default Feed
+export default Feed:
